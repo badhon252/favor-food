@@ -41,14 +41,6 @@ h1 {
 .my-6 {
   margin: 6rem 0;
 }
-.btn {
-  outline: none;
-  border: none;
-  padding: 15px 30px;
-}
-//==========
-//=========
-// =======
 header {
   background-color: #1a222d;
   color: #fff;
@@ -88,7 +80,6 @@ header {
   }
 
   .header-content {
-    min-height: 100vh;
     padding: 3rem 0;
     h1 {
       margin: 1rem 0;
@@ -119,99 +110,17 @@ header {
         padding: 1.4rem 3.5rem;
         margin-right: 0.6rem;
         cursor: pointer;
-        font-weight: 600;
       }
     }
 
     .card {
       background: #ff6652;
       border-radius: 39px;
-      // padding: 0 4rem;
+      padding: 0 4rem;
       position: relative;
-
-      .header-main-img {
+      .img {
         background-color: #fff;
         padding: 0 4rem;
-        border-radius: 39px;
-        position: relative;
-        margin-left: 8%;
-        margin-bottom: 8%;
-        margin-top: -8%;
-
-        // padding-left: 3rem;
-        // &:hover {
-        //   margin: -2rem -2rem auto auto;
-        // }
-      }
-
-      .discount-card {
-        position: absolute;
-        top: 30%;
-        left: -15%;
-        background-color: #fff;
-        color: #000;
-        padding: 1rem;
-        display: flex;
-        border-radius: 15px;
-        width: 238px;
-
-        img {
-          margin-right: 1rem;
-        }
-        h4 {
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 21px;
-          letter-spacing: 0.01em;
-          color: #a6a6bb;
-        }
-        h2 {
-          font-weight: 600;
-          font-size: 17px;
-          line-height: 26px;
-          letter-spacing: 0.01em;
-          color: #070a13;
-        }
-      }
-      .profile-card {
-        position: absolute;
-        top: -20%;
-        right: -22%;
-        width: 218px;
-        height: 274px;
-        background-color: #fff;
-        border-radius: 18px;
-        color: #000;
-        padding: 0 2rem;
-        text-align: center;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        img {
-          margin: 1rem 0;
-        }
-        h4 {
-          font-weight: 500;
-          font-size: 14px;
-          line-height: 16px;
-          text-align: center;
-          letter-spacing: 0.01em;
-          color: #8888a5;
-          margin: 0.4rem 0;
-        }
-        h3 {
-          font-weight: 600;
-          font-size: 20px;
-          line-height: 23px;
-          letter-spacing: 0.01em;
-          color: #070a13;
-        }
-        h2 {
-          font-weight: 500;
-          font-size: 18px;
-          line-height: 21px;
-          letter-spacing: 0.01em;
-          color: #fe5a50;
-          margin: 0.7rem 0;
-        }
       }
     }
   }

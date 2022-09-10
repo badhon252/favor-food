@@ -11,8 +11,62 @@
   margin: 0 12rem;
 }
 
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+}
+
+.row .col-md-6 {
+  max-width: 50%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 96px;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.my-6 {
+  margin: 6rem 0;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  padding: 15px 30px;
+}
+
 header {
   background-color: #1a222d;
+  color: #fff;
 }
 
 header nav {
@@ -25,7 +79,7 @@ header nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1.7rem 0;
+  padding: 1.5rem 0;
 }
 
 header nav ul {
@@ -41,21 +95,163 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: #fff;
-  margin-right: 2rem;
+  margin-right: 2.5rem;
   font-size: 1.1rem;
   font-weight: 500;
 }
 
 header nav .search-icon {
   color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid rgba(255, 255, 255, 0.521);
   border-radius: 50%;
-  padding: 1.2rem;
+  padding: 1rem;
   border-radius: 20px;
-  opacity: 0.3;
+  cursor: pointer;
 }
 
 header nav .search-icon:hover {
   opacity: 1;
+}
+
+header nav .search-icon i {
+  font-size: 1.5rem;
+}
+
+header .header-content {
+  min-height: 100vh;
+  padding: 3rem 0;
+}
+
+header .header-content h1 {
+  margin: 1rem 0;
+}
+
+header .header-content p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 2rem 0;
+  line-height: 32px;
+}
+
+header .header-content form {
+  display: inline-block;
+  border-radius: 22px;
+  background: #ffffff;
+}
+
+header .header-content form input {
+  padding: 1.5rem;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  outline: none;
+  border: none;
+  color: #b1b1b1;
+  border-radius: 22px;
+}
+
+header .header-content form label {
+  background: #ff6652;
+  border-radius: 16px;
+  padding: 1.4rem 3.5rem;
+  margin-right: 0.6rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+header .header-content .card {
+  background: #ff6652;
+  border-radius: 39px;
+  position: relative;
+}
+
+header .header-content .card .header-main-img {
+  background-color: #fff;
+  padding: 0 4rem;
+  border-radius: 39px;
+  position: relative;
+  margin-left: 8%;
+  margin-bottom: 8%;
+  margin-top: -8%;
+}
+
+header .header-content .card .discount-card {
+  position: absolute;
+  top: 30%;
+  left: -15%;
+  background-color: #fff;
+  color: #000;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 15px;
+  width: 238px;
+}
+
+header .header-content .card .discount-card img {
+  margin-right: 1rem;
+}
+
+header .header-content .card .discount-card h4 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #a6a6bb;
+}
+
+header .header-content .card .discount-card h2 {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  color: #070a13;
+}
+
+header .header-content .card .profile-card {
+  position: absolute;
+  top: -20%;
+  right: -22%;
+  width: 218px;
+  height: 274px;
+  background-color: #fff;
+  border-radius: 18px;
+  color: #000;
+  padding: 0 2rem;
+  text-align: center;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+header .header-content .card .profile-card img {
+  margin: 1rem 0;
+}
+
+header .header-content .card .profile-card h4 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #8888a5;
+  margin: 0.4rem 0;
+}
+
+header .header-content .card .profile-card h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  color: #070a13;
+}
+
+header .header-content .card .profile-card h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #fe5a50;
+  margin: 0.7rem 0;
 }
 /*# sourceMappingURL=style.css.map */
