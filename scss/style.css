@@ -175,8 +175,6 @@ header .header-content .card .header-main-img {
   margin-top: -8%;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  height: auto;
-  width: 500px;
 }
 
 header .header-content .card .header-main-img:hover {
