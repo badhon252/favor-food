@@ -137,8 +137,6 @@ header {
         margin-bottom: 8%;
         margin-top: -8%;
         transition: 0.4s;
-        height: auto;
-        width: 500px;
         &:hover {
           margin-top: 0%;
           margin-left: 0%;
@@ -161,7 +159,6 @@ header {
         display: flex;
         border-radius: 15px;
         width: 238px;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 
         img {
           margin-right: 1rem;
@@ -192,7 +189,7 @@ header {
         color: #000;
         padding: 0 2rem;
         text-align: center;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
         img {
           margin: 1rem 0;
         }

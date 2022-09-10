@@ -118,7 +118,7 @@ header nav .search-icon i {
 }
 
 header .header-content {
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 3rem 0;
 }
 
@@ -173,6 +173,16 @@ header .header-content .card .header-main-img {
   margin-left: 8%;
   margin-bottom: 8%;
   margin-top: -8%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  height: auto;
+  width: 500px;
+}
+
+header .header-content .card .header-main-img:hover {
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-bottom: -1%;
 }
 
 header .header-content .card .discount-card {
@@ -187,6 +197,8 @@ header .header-content .card .discount-card {
   display: flex;
   border-radius: 15px;
   width: 238px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }
 
 header .header-content .card .discount-card img {
