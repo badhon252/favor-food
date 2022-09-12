@@ -290,7 +290,6 @@ header {
       li {
         list-style: none;
         margin-right: 2rem;
-
         a {
           font-weight: 500;
           text-decoration: none;
@@ -301,12 +300,6 @@ header {
           background: #f3f3f3;
           border-radius: 18px;
           padding: 1rem 3rem;
-          &:hover {
-            background: #202a36;
-            border-radius: 18px;
-            color: #fff;
-            font-weight: 600;
-          }
         }
         .active-btn {
           background: #202a36;
@@ -324,12 +317,7 @@ header {
       border: 2px solid #f8f5f5;
       border-radius: 15px;
       position: relative;
-      margin: 2rem;
-      &:hover {
-        cursor: pointer;
-        box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
-          rgba(17, 17, 26, 0.05) 0px 8px 32px;
-      }
+      margin: 1rem;
       .card-tag {
         background: linear-gradient(116.88deg, #ff4539 -4.28%, #fe5a50 112.69%);
         box-shadow: 0px 4px 8px rgba(205, 71, 41, 0.26);
@@ -341,7 +329,10 @@ header {
         font-weight: 600;
         font-size: 12px;
         line-height: 140%;
+        /* identical to box height, or 17px */
+
         text-align: center;
+
         color: #ffffff;
       }
     }
@@ -381,29 +372,19 @@ header {
 }
 
 .fourth-section {
-  .row {
-    justify-content: space-around;
-  }
   h2 {
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
+    /* identical to box height */
+
     color: #fe5a50;
   }
   h1 {
     font-weight: 700;
-    font-size: 4rem;
-    line-height: 60px;
+    line-height: 100px;
+    /* or 125% */
+
     color: #202a36;
-  }
-  p {
-    font-size: 1.3rem;
-    line-height: 26px;
-    color: #7d90a6;
-  }
-  .fourth-section-link-img {
-    img {
-      margin-right: 3rem;
-    }
   }
 }

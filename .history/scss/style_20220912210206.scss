@@ -290,7 +290,6 @@ header {
       li {
         list-style: none;
         margin-right: 2rem;
-
         a {
           font-weight: 500;
           text-decoration: none;
@@ -301,12 +300,6 @@ header {
           background: #f3f3f3;
           border-radius: 18px;
           padding: 1rem 3rem;
-          &:hover {
-            background: #202a36;
-            border-radius: 18px;
-            color: #fff;
-            font-weight: 600;
-          }
         }
         .active-btn {
           background: #202a36;
@@ -326,7 +319,6 @@ header {
       position: relative;
       margin: 2rem;
       &:hover {
-        cursor: pointer;
         box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
           rgba(17, 17, 26, 0.05) 0px 8px 32px;
       }
@@ -341,7 +333,10 @@ header {
         font-weight: 600;
         font-size: 12px;
         line-height: 140%;
+        /* identical to box height, or 17px */
+
         text-align: center;
+
         color: #ffffff;
       }
     }
@@ -381,9 +376,6 @@ header {
 }
 
 .fourth-section {
-  .row {
-    justify-content: space-around;
-  }
   h2 {
     font-weight: 500;
     font-size: 18px;
