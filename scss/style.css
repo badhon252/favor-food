@@ -64,6 +64,22 @@ h1 {
   padding: 15px 30px;
 }
 
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
 header {
   background-color: #1a222d;
   color: #fff;
@@ -129,7 +145,7 @@ header .header-content h1 {
 header .header-content p {
   font-size: 1.3rem;
   font-weight: 500;
-  margin: 2rem 0;
+  margin: 4rem 0;
   line-height: 32px;
 }
 
@@ -180,7 +196,7 @@ header .header-content .card .header-main-img {
 header .header-content .card .header-main-img:hover {
   margin-top: 0%;
   margin-left: 0%;
-  margin-bottom: -1%;
+  margin-bottom: 0%;
 }
 
 header .header-content .card .discount-card {
@@ -263,5 +279,156 @@ header .header-content .card .profile-card h2 {
   letter-spacing: 0.01em;
   color: #fe5a50;
   margin: 0.7rem 0;
+}
+
+.second-section {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.second-section img {
+  border-radius: 50%;
+  width: 155px;
+  height: 155px;
+  background: #ffffff;
+  border: 1px solid #f3f3f3;
+}
+
+.second-section img:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.second-section h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #202a36;
+}
+
+.second-section h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #202a36;
+}
+
+.third-section {
+  padding: 3rem 0;
+}
+
+.third-section h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #fe5a50;
+}
+
+.third-section h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #202a36;
+}
+
+.third-section nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.third-section nav ul li {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.third-section nav ul li a {
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 24px;
+  text-align: center;
+  color: #575e66;
+  background: #f3f3f3;
+  border-radius: 18px;
+  padding: 1rem 3rem;
+}
+
+.third-section nav ul li .active-btn {
+  background: #202a36;
+  border-radius: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.third-section .food-items .card {
+  background: #ffffff;
+  border: 2px solid #f8f5f5;
+  border-radius: 15px;
+  position: relative;
+}
+
+.third-section .food-items .card .card-tag {
+  background: linear-gradient(116.88deg, #ff4539 -4.28%, #fe5a50 112.69%);
+  -webkit-box-shadow: 0px 4px 8px rgba(205, 71, 41, 0.26);
+          box-shadow: 0px 4px 8px rgba(205, 71, 41, 0.26);
+  border-radius: 3px;
+  position: absolute;
+  top: 6%;
+  left: 5%;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 140%;
+  /* identical to box height, or 17px */
+  text-align: center;
+  color: #ffffff;
+}
+
+.third-section .food-items h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242e3a;
+}
+
+.third-section .food-items h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #575e66;
+  margin: 0.5rem 0;
+}
+
+.third-section .food-items h6 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #575e66;
+}
+
+.third-section .food-items .price {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: #121146;
+  text-align: center;
+  display: block;
+  padding: 1rem 0;
+}
+
+.third-section .food-items .card-body {
+  padding: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
