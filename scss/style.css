@@ -34,6 +34,17 @@ h1 {
   line-height: 96px;
 }
 
+.btn {
+  outline: none;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
 .my-2 {
   margin: 2rem 0;
 }
@@ -58,12 +69,6 @@ h1 {
   margin: 6rem 0;
 }
 
-.btn {
-  outline: none;
-  border: none;
-  padding: 15px 30px;
-}
-
 .py-1 {
   padding: 1rem 0;
 }
@@ -78,6 +83,10 @@ h1 {
 
 .py-4 {
   padding: 4rem 0;
+}
+
+.py-5 {
+  padding: 5rem 0;
 }
 
 header {
@@ -355,7 +364,7 @@ header .header-content .card .profile-card h2 {
 }
 
 .third-section nav ul li a {
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
   font-size: 1rem;
   line-height: 24px;
@@ -370,7 +379,8 @@ header .header-content .card .profile-card h2 {
   background: #202a36;
   border-radius: 18px;
   color: #fff;
-  font-weight: 600;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .third-section nav ul li .active-btn {
@@ -453,10 +463,14 @@ header .header-content .card .profile-card h2 {
 }
 
 .fourth-section h2 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   line-height: 27px;
+}
+
+.fourth-section h2 a {
   color: #fe5a50;
+  text-decoration: none;
 }
 
 .fourth-section h1 {
@@ -474,5 +488,185 @@ header .header-content .card .profile-card h2 {
 
 .fourth-section .fourth-section-link-img img {
   margin-right: 3rem;
+}
+
+.fifth-section {
+  position: relative;
+  padding: 4rem;
+}
+
+.fifth-section .container {
+  margin: 4rem 12rem;
+}
+
+.fifth-section .row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.fifth-section .review-head {
+  position: relative;
+  top: -125px;
+  left: 14px;
+}
+
+.fifth-section .review-head h3 {
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 27px;
+  color: #fe5a50;
+}
+
+.fifth-section .review-head h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 72px;
+  color: #202a36;
+}
+
+.fifth-section .card {
+  padding: 1rem 3rem;
+  margin: 3rem 1rem;
+  background: #ffffff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.fifth-section .card:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.fifth-section .card .review i {
+  font-size: 0.7rem;
+  color: #f7aa00;
+  width: 13.38px;
+  height: 13.38px;
+}
+
+.fifth-section .card .review .ratings {
+  margin: 1rem 0;
+}
+
+.fifth-section .card .review p {
+  font-style: italic;
+  width: 398px;
+  height: 156px;
+  font-size: 1.7rem;
+  line-height: 39px;
+  color: #222c38;
+  font-weight: 400;
+}
+
+.fifth-section .card .review .card-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fifth-section .card .review .card-profile img {
+  margin-left: -1.1rem;
+}
+
+.fifth-section .card .review .card-profile .name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232d37;
+}
+
+.fifth-section .card .review .card-profile .card-profile-about {
+  margin-bottom: 1.1rem;
+  font-size: 12px;
+  line-height: 18px;
+  color: #7f8895;
+}
+
+.sixth-section {
+  background: #151d28;
+}
+
+.sixth-section .parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sixth-section h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 50px;
+  /* or 132% */
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.sixth-section .btn {
+  background: #fe5a50;
+  -webkit-box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  padding: 1.3rem 3rem;
+}
+
+footer {
+  padding: 4rem 0;
+}
+
+footer h2 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 29px;
+}
+
+footer p {
+  font-size: 0.9rem;
+  line-height: 22px;
+  /* or 157% */
+  color: #5b5e68;
+  margin: 1rem 0;
+}
+
+footer li {
+  list-style-type: none;
+  margin: 1rem 0;
+}
+
+footer li a {
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 21px;
+  /* identical to box height */
+  color: #5b5e68;
+}
+
+footer li a:hover {
+  color: #000;
+}
+
+footer .footer-title {
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  text-align: center;
+  color: #5b5e68;
+}
+
+footer .footer-title i {
+  font-size: 16px;
 }
 /*# sourceMappingURL=style.css.map */
